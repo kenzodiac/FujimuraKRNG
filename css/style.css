@@ -1,0 +1,23 @@
+body{
+    background-image: url(../assets/images/trigunstampede.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: grey;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(252,0,0);
+    -webkit-text-stroke: 2px black;
+}
+
+.title{
+    font-size: 4rem;
+}
+
+.outputs{
+    justify-content: flex-end;
+}
+
+.underline{
+    border-bottom: 4px solid;
+}
