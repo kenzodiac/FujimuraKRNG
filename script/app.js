@@ -26,8 +26,8 @@ function GetRandomInt(max){
 //44 total datapoints
 
 async function SelectRandomName(){
-    let randomNum = GetRandomInt(44);
     await GetStudentNamesList();
+    let randomNum = GetRandomInt(studentList.studentNames.length);
     currentStudent = studentList.studentNames[randomNum].name;
     console.log(currentStudent);
     injectNameHere.innerHTML = `<span class=\"underline\">Name</span>: ${currentStudent}`;
